@@ -1,0 +1,10 @@
+{
+    "name": "block_samurai",
+    "description": "侍エンジニアを検索結果から除外します。",
+    "version": "1",
+    "manifest_version": 2,
+    "content_scripts":[{
+      "matches":["*://www.google.com/search?*"],
+      "js":["add-func.js"]
+    }] 
+}
