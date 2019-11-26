@@ -1,4 +1,3 @@
-
 let el = document.getElementsByClassName('g'),
     pattern = 'www.sejuku.net/',
     ad;
